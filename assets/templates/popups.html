@@ -1,0 +1,55 @@
+<!-- popups -->
+<!-- .closeBtn - закрывает попап -->
+<!-- .open-* - открывает попап -->
+<div class="overlay-requestCall overlayPopup">
+    <div class="close"></div>
+    <div class="requestCall__popup">
+        <span class="close-popup closeBtn"></span>
+        <div class="content">
+            <p class="title">Введите Ваши данные и наши менеджеры свяжутся с Вами</p>
+            <form onsubmit="return false">
+                <div class="form-input">
+                    <input type="text" placeholder="Имя">
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="Телефон">
+                </div>
+                <div class="form-textarea">
+                    <textarea placeholder="Комментарий"></textarea>
+                </div>
+                <div class="form-checkbox">
+                    <label>Я согласен с условиями 
+                            обработки <a href="javascript:void(0)" class="grad">персональных данных </a>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="form-button">
+                    <button class="closeBtn open-thanksMsg">отправить заявку</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="overlay-thanksMsg overlayPopup">
+    <div class="close"></div>
+    <div class="thanksMsg__popup">
+        <span class="close-popup closeBtn"></span>
+        <div class="content">
+            <p>Спасибо за заявку.</p>
+            <p>Наши менеджеры свяжутся с Вами в ближайшее время.</p>
+        </div>
+    </div>
+</div>
+
+<div class="overlay-review overlayPopup">
+    <div class="close"></div>
+    <div class="review__popup">
+        <span class="close-popup closeBtn"></span>
+        <div class="review__content clearfix">
+        </div>
+    </div>
+</div>
+
+

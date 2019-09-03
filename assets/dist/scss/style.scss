@@ -1,0 +1,78 @@
+@import "libs/flexbox";
+@import "libs/fontello";
+@import "libs/fonts";
+@import "libs/header";
+@import "libs/footer";
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+	font-family: 'ProximaNova';
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  overflow-x: hidden;
+}
+
+ul,ol{
+  margin: 0;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+ul li,ol li{
+  margin: 0;
+}
+
+.clearfix{
+  &:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    clear: both;
+    height: 0;
+  }
+}
+
+.container{
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+  position: relative;
+}
+button{
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1600px) {
+
+  .container{
+    width: 1570px;
+    padding: 0;
+  }
+
+}
+
+
+
